@@ -5,7 +5,7 @@ import { conectarWebSocket } from './socket/socket';
 
 
 const app = express();
-const port = 3002;
+const port = 3000;
 
 let corsOptions = {
     origin: '*'
